@@ -22,12 +22,10 @@ It also includes a **Contact Form** with a success page.
 ```
 portfolio-flask/
 │── app.py
-│── static/
-│   ├── style.css
-│── templates/
-│   ├── index.html
-│   ├── contact.html
-│   ├── success.html
+├── style.css
+├── index.html
+├── contact.html
+├── success.html
 │── README.md
 ```
 
