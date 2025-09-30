@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. ShashiKanth | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>M. ShashiKanth</h1>
+        <p>Python Developer Intern | Aspiring Full-Stack Developer</p>
+        <p class="contact-info">
+            📞 +91 9390471766 | 📧 <a href="mailto:shashikanthyadav111@gmail.com">shashikanthyadav111@gmail.com</a> <br>
+            🔗 <a href="https://linkedin.com/in/shashi-kanth-18ba38336/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/shashi131202" target="_blank">GitHub</a>
+        </p>
+    </header>
+
+    <!-- Education -->
+    <section>
+        <h2>🎓 Education</h2>
+        <div class="card">
+            <h3>Keshav Memorial Institute of Technology</h3>
+            <p><strong>B.Tech in Computer Science and Engineering (AI & ML)</strong> | June 2022 - June 2025</p>
+            <p>CGPA: 7.8</p>
+        </div>
+        <div class="card">
+            <h3>Government Institute of Electronics</h3>
+            <p><strong>Diploma in Electronics</strong> | March 2018 - June 2022</p>
+            <p>Percentage: 78%</p>
+        </div>
+        <div class="card">
+            <h3>Navya Grammar High School (SSC)</h3>
+            <p><strong>Secondary Education</strong> | March 2018</p>
+            <p>CGPA: 8.8</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>💻 Projects</h2>
+        <div class="card">
+            <h3>Online Reputation Management Tool</h3>
+            <p><em>Flask, Python, Bootstrap, JavaScript, RoBERTa</em></p>
+            <ul>
+                <li>Analyzed 5K+ comments from Instagram, Threads, and X using RoBERTa models.</li>
+                <li>Reduced analysis time by 65% with async Flask APIs.</li>
+                <li>Integrated charts and filters improving insights readability by 80%.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Stock Analysis Chatbot</h3>
+            <p><em>Python, Streamlit, spaCy, yFinance, Matplotlib</em></p>
+            <ul>
+                <li>Built NLP-powered chatbot analyzing stock indicators (SMA, EMA, RSI, MACD).</li>
+                <li>Enabled real-time visualization with <10s query response time.</li>
+                <li>Improved accessibility for non-technical users by 70%.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Supermarket Billing System</h3>
+            <p><em>Java, JDBC, JavaScript, CSS</em></p>
+            <ul>
+                <li>Managed 100+ products with Java & MySQL.</li>
+                <li>Reduced billing errors by 30% and sped transactions by 45%.</li>
+                <li>Improved UI with JavaScript and CSS, boosting interaction by 50%.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Expense Tracking Application</h3>
+            <p><em>MERN Stack</em></p>
+            <ul>
+                <li>Tracked 100+ transactions using MongoDB with optimized CRUD.</li>
+                <li>Delivered React UI improving efficiency by 60%.</li>
+                <li>Reduced manual spreadsheet work by 80%.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <h2>📜 Certifications</h2>
+        <div class="card">
+            <h3>Mastering Generative AI and ChatGPT</h3>
+            <p>June 2025</p>
+            <ul>
+                <li>Proficient in Python data handling (NumPy, Pandas).</li>
+                <li>Knowledge of Transformer architectures (GPT, BERT).</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section>
+        <h2>🛠 Technical Skills</h2>
+        <ul class="skills">
+            <li>Python</li>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>Transformers, TensorFlow, Keras</li>
+            <li>NumPy, Pandas</li>
+            <li>Git, VS Code, Eclipse, Postman</li>
+            <li>Data Science, Machine Learning, Databases</li>
+        </ul>
+    </section>
+
+    <!-- Hobbies -->
+    <section>
+        <h2>🎯 Hobbies & Interests</h2>
+        <ul>
+            <li>♟ Chess Player – Strategic thinking & decision-making.</li>
+            <li>📈 Stock Market Enthusiast – Analyze trends & investments.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 M. ShashiKanth | All Rights Reserved</p>
+        <a href="{{ url_for('contact') }}">Contact Me</a>
+    </footer>
+</body>
+</html>
